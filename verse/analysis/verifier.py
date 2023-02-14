@@ -121,7 +121,7 @@ class Verifier:
         verification_queue.append(root)
         while verification_queue != []:
             node: AnalysisTreeNode = verification_queue.pop(0)
-            print(node.start_time, node.mode)
+            # print(node.start_time, node.mode)
             remain_time = round(time_horizon - node.start_time, 10)
             if remain_time <= 0:
                 continue

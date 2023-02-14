@@ -50,3 +50,6 @@ def controller(ego: State, others: State):
         Coming soon. Waypoint transitions. Platooning.'''
     output = copy.deepcopy(ego)
     return output
+
+if __name__=="__main__":
+    controller.empty()
